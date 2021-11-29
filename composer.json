@@ -1,0 +1,24 @@
+{
+  "name": "mayconnascimentodeoliveira/listagem",
+  "description": "LISTAGEM DE FORNECEDORES BLUDATA",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maycon Nascimento de Oliveira",
+      "email": "mayconnascimentodeoliveira23@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/router": "1.0.*",
+    "league/plates": "v4.0.0-alpha"
+  }
+}
